@@ -1,0 +1,251 @@
+html {
+    box-sizing:border-box;
+    background-color: #eeb20c;
+    overflow-y: scroll;
+    background-image: url(../assetts/mural1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+h1 {
+  font-family: 'IM Fell English SC', serif;
+}
+
+p {
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+.main-container {
+  /* background-color: rgb(0,0,0,0.8); */
+  padding: 10px;
+}
+
+body {
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(90, 30, 30);
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.0);
+}
+
+.main-container > div {
+  /* margin: 15px; */
+}
+
+.wrapper {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.logo-container {
+  width: 600px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: black; */
+}
+
+.nav-container {
+  background-color: rgb(0,0,0,0.75);
+  padding: 10px;
+}
+
+.nav-container li {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+}
+
+.nav-container ul {
+width:100%
+}
+
+
+
+.nav-bar a {
+  display: block;
+  margin-right: 5px;
+}
+
+.nav-bar ul li a {
+  color: pink;
+}
+
+.nav-bar {
+  text-decoration: none;
+  color: #eeb20c;
+  font-family: 'IM Fell English SC', serif;
+}
+
+.nav-bar:hover {
+  color: white;
+  font-family: 'IM Fell English SC', serif;
+}
+
+.nav-box {
+  width:100%;
+  /* background-color: rgb(0,0,0,0.9); */
+  padding: 0;
+  margin: 0;
+    font-size: 40px;
+  text-align: center;
+}
+
+.nav-box h1 {
+  font-size: 3vh;
+}
+
+.history-box h1{
+  font-size: 5vh;
+  text-align: center;
+  color: white;
+}
+
+.history-box p{
+  font-size: 2.4vh;
+}
+
+.history-box {
+  text-align: left;
+  background-color: rgb(0,0,0,0.75);
+  padding: 10px;
+  color: white;
+}
+
+.info-box h1{
+  font-size: 5vh;
+  text-align: center;
+  margin: 20px;
+  color: white
+}
+
+.info-box p{
+  font-size: 2.4vh;
+}
+
+.info-box {
+  text-align: center;
+  background-color: rgb(0,0,0,0.75);
+  padding: 10px;
+  color: white;
+  margin-top: 20px;
+}
+
+.m_category-list h1{
+  font-size: 5vh;
+  text-align: center;
+  color: white;
+}
+
+.m_category-list p{
+  font-size: 20px;
+  color: white;
+}
+
+.m_category-list {
+  text-align: center;
+  background-color: rgb(0,0,0,0.85);
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.m-ul {
+  padding-left: 0;
+}
+
+.m-cat {
+    list-style: none;
+}
+
+.m_list {
+  text-decoration: none;
+  color: white;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 5vh;
+}
+
+.m_item h1{
+  font-size: 3vh;
+  text-align: center;
+  color: white;
+}
+
+.m_item p{
+  font-size: 2.4vh;
+  color: white;
+}
+
+.m_item h2 {
+  font-size: 3vh;
+  font-weight:bolder;
+  color: white;
+}
+
+.m_item-list {
+  text-align: center;
+  background-color: rgb(0,0,0,0.85);
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 20px;}
+
+.m_list:hover {
+    color: #eeb20c;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 5vh;
+}
+
+.box-border {
+  border-style: inset;
+  border-color: #eeb20c;
+  /* background-color: rgb(0,0,0,0.15); */
+  margin-top: 8px;
+  padding: 10px;
+}
+
+.poem_p {
+  text-align: center;
+  font-size: 3vh;
+}
+
+.poem_p p {
+  font-family: 'Nova Script', cursive;
+  font-size: 3vh
+}
+
+.box-border h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5vw;
+  width: 100%;
+  margin: auto;
+}
+
+.fblogo {
+  width: 10%;
+  max-width: 50px;
+}
